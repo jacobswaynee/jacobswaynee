@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .flex-container {
+            font-family: Arial, Helvetica, sans-serif;
+            border: 4px solid black;
+            margin: 40px 30px;
+            width: 400px;
+            /* height: 300px; */
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        /* flex-items */
+
+        section > div {
+            text-align: center;
+
+            /* grow shrink basics */
+            flex: 1 0 100px;
+        }
+
+        /* individual flex items */
+        div:nth-of-type(1) {
+            background: red;
+        }
+
+        div:nth-of-type(2) {
+            background: hsl(18, 18%, 72%);
+        }
+
+        div:nth-of-type(3) {
+            background: rgb(0, 255, 85);
+        }
+
+        div:nth-of-type(4) {
+            background: rgb(89, 0, 255);
+        }
+
+        div:nth-of-type(5) {
+            background: rgb(0, 238, 255);
+        }
+
+        div:nth-of-type(6) {
+            background: #ff00ea;
+        }
+    </style>
+</head>
+<body>
+    <section class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </section>
+    
+</body>
+</html>

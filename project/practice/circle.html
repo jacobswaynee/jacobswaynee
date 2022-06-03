@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+
+	<title>Semi Circle</title>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			background-color: white;
+
+		}
+
+		/* Using the border-radius property
+		to draw the semi-circle*/
+		div {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+            transform: rotate(90deg);
+			height: 90px;
+			width: 120px;
+			border-radius: 150px 150px 0 0;
+			background-color: green;
+		}
+
+        .mike {
+            position: absolute;
+            width: 100px;
+            height: 90px;
+            background: red;
+            transform: translate(-50%, -50%);
+            transform: rotate(5deg);
+            border-radius: 150px 150px 0 0;
+
+        }
+	</style>
+</head>
+
+<body>
+	<div>
+        <div class="mike"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+document.querySelectorAll("main h2").forEach(item => item.style.color = "red");

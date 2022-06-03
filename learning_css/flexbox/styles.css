@@ -1,0 +1,60 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+.container > * {
+    padding: 20px;
+}
+
+.container {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    /* max-width: 1000px; */
+
+}
+
+header {
+    background: skyblue;
+    flex: 1 0 100%;
+    order: 1;
+}
+
+main {
+    background: slategray;
+    order: 3;
+    flex: 1 1 500px;
+}
+
+nav {
+    background: cadetblue;
+    order: 2;
+    flex: 1 0 200px;
+}
+
+aside {
+    background-color: seagreen;
+    order: 4;
+    flex: 1 0 200px;
+}
+
+footer {
+    background: rgb(255, 0, 221);
+    flex: 1 0 100%;
+    order: 5;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+      .grid-container {
+          border: 5px solid black;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: bold;
+          display: grid;
+          grid-template-columns: 2fr repeat(2, 1fr);
+          grid-template-rows: repeat(2 minmax(100px, 200px));
+          gap: 10px;
+
+     }
+
+     .grid-item {
+         padding: 10px 20px;
+     }
+
+     .grid-item:nth-child(1) {
+         background: #a83333;
+     }
+
+     .grid-item:nth-child(2) {
+         background: #682c59;
+     }
+
+     .grid-item:nth-child(3) {
+         background: #267dc5;
+     } 
+     .grid-item:nth-child(4) {
+         background: #339949;
+     }
+
+     .grid-item:nth-child(5) {
+         background: #57665a;
+     }
+     </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div class="grid-item">
+            <p>aucibus in ornare. Quisque non tellus orci ac auctor augue mauris. 
+                Fermentum dui faucibus in ornare. Nulla facilisi cras fermentum odio eu feugiat pretium. 
+                Egestas sed tempus urna et. Amet mattis vulputate enim nulla. 
+                Tincidunt arcu non sodales neque sodales ut. Vitae suscipit tellus mauris a diam maecenas.</p>
+        </div>
+    </div>  
+</body>
+</html>

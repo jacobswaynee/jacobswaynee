@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.menu {
+    width: auto;
+    margin: auto;
+    height: 170px;
+    background: #3c3c3c;
+    top: 0px;
+   
+}
+ 
+  .flex-menu {
+    position: absolute;
+    width: 350px;
+    height: 170px;
+    background: #11332a
+
+    ;
+} 
+
+.log-name {
+    position: absolut;
+    color: #ffa500;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.log1 {
+    position: absolute;
+    width: 350px;
+    height: 32px;
+    background: #ffa500;
+}
+
+.log2 {
+    position: absolute;
+    width: 45px;
+    height: 65px;
+    background: #ffa500;
+    transform: skew(-13deg);
+    top: 105px;
+    left: 40px;
+}
+
+.log3 {
+    position: absolute;
+    width: 30px;
+    height: 65px;
+    background: #ffa500;
+    transform: skew(-13deg);
+    top: 105px;
+    left: 150px;
+}
+
+.moto {
+    position: absolute;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 20px;
+}

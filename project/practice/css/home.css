@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+.heading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 5px;
+}
+
+body > main > div > p {
+    padding: 20px;
+    font-family: serif;
+}
+
+body > main > div > h1 {
+    padding: 10px;
+    font-family: serif;
+}
+
+.services {
+    position: absolute;
+    padding: 15px;
+    float: left;
+}
+
+/* .gallery {
+    margin: 5px;
+    border: 10px solid white;
+    width: 180px;
+    float: right;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.para {
+    padding: 15px;
+    text-align: center;
+} */

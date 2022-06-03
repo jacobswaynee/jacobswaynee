@@ -1,0 +1,2 @@
+sudo update-alternatives --set php /usr/bin/php8.0
+what is composer
